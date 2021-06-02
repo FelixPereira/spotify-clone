@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+@media(min-width: 992px){
+   
+    
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00000099;
+        width: 100%;
+        padding: 0 calc((100% - 1200px) / 2);
+        position: fixed;
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+    }
+
+    .cabecalho_menu-item a{
+        margin-left: 30px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .cabecalho_menu-item a:hover{
+        color: #1ED760;
+    }
+
+    nav{
+        width: 80%;
+    }
+
+    .hero-bg{
+        background-color: #f2b858;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-title{
+        font-size: 70px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    .hero-btn{
+        padding: 20px 60px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        border: none;
+        background-color: #1DB954;
+        color: #fff;
+        letter-spacing: 1;
+        transition: .5s;
+    }
+
+    .hero-btn:hover{
+        background-color: #1ED760;
+        cursor: pointer;
+        
+    }
+
+    .hero-term{
+        color: #fff;
+        font-size: 11px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .music{
+        padding: 100px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .music-title{
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+
+    .music-paragraph{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1;
+        margin-bottom: 18px;
+    }
+
+    .music-btn{
+        padding: 15px 50px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 14px;
+        border: none;
+        background-color: #fff;
+        border: 2px solid #616467;
+        color: #616467;
+        letter-spacing: 1;
+        transition: .5s;
+        margin-bottom: 70px;
+    }
+
+    .music-btn:hover{
+        background-color: #616467;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .music_inner-section{
+        margin-bottom: 5px;
+        width: 100%;
+        margin: auto;
+    }
+    .music_inner-section-list{
+        list-style: none;
+        display: flex;
+    }
+
+    .music_inner-section-item img{
+        width: 400px;
+        margin: 0 5px;
+
+    }
+
+
+    /*Rodape*/
+
+    .rodape{
+        background: #000000;
+        padding: 100px calc((100% - 1200px) / 2);
+    }
+
+    .rodape-section{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+    .rodape-title{
+        color: #919496;
+        font-size: 12px;
+        letter-spacing: .90;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .rodape-logo{
+        width: 15%;
+    }
+
+    .rodape-links{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rodape-social{
+        width: 20%;
+    }
+
+
+    .rodape-link-item a{
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .rodape-link-item a:hover{
+        color: #1ED760;
+    }
+
+    .rodape-link-item{
+        margin-bottom: 20px;
+    }
+
+    .rodape-social-links{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rodape-inner-link{
+        width: 50%;
+        display: flex;
+        list-style: none;
+    }
+
+    .rodape-inner-link-item a{
+        text-decoration: none;
+        color: #919496;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .rodape-inner-link-item a:hover{
+        color: #1ED760;
+    }
+
+    .rodape-inner-link-item{
+        margin-right: 15px;
+    }
+
+    .inner{
+        padding: 70px 0 0 0;
+    }
+
+
+
+
+
+}
